@@ -1,50 +1,48 @@
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 
 const Navbar = () => {
-    return ( 
-        <nav className="navbar">
-            <h1>My Portfolio</h1>
-            <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/resume">Resume</Link>
-            </div>
-        </nav>
-     );
-}
- 
-export default Navbar;
+  const [activeLink, setActiveLink] = useState('');
 
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
 
-
-//vid: https://www.youtube.com/watch?v=SLfhMt5OUPI&t=64s
-/*import { Link, useMatch, useResolvedPath } from "react-router-dom"
-
-export default function Navbar() {
   return (
-    <nav className="nav">
-      <Link to="/" className="site-title">
-        Site Name
-      </Link>
+    <nav>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <li
+          className={activeLink === 'home' ? 'active' : ''}
+          onClick={() => handleLinkClick('home')}
+        >
+          Home
+        </li>
+        <li
+          className={activeLink === 'about' ? 'active' : ''}
+          onClick={() => handleLinkClick('about')}
+        >
+          About
+        </li>
+        <li
+          className={activeLink === 'Portfolio' ? 'active' : ''}
+          onClick={() => handleLinkClick('Portfolio')}
+        >
+          Portfolio
+        </li>
+        <li
+          className={activeLink === 'contact' ? 'active' : ''}
+          onClick={() => handleLinkClick('contact')}
+        >
+          Contact
+        </li>
+        <li
+          className={activeLink === 'resume' ? 'active' : ''}
+          onClick={() => handleLinkClick('resume')}
+        >
+          Resume
+        </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-
-  return (
-    <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
-        {children}
-      </Link>
-    </li>
-  )
-}*/
+export default Navbar;

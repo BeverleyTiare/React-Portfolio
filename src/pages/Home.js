@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import { github, resume } from "../assets/index";
-import homeLogo from "../assets/images/light.jpg"; // Assuming there's an image file called "homeLogo.png" in the "../assets" directory
+import { Container, Row, Col } from "react-bootstrap"; 
+import homeLogo from "../assets/images/BW AVATAR.png";
+
 
 function Home() {
   return (
@@ -9,21 +9,20 @@ function Home() {
       <Container className="home-content">
         <Row>
           <Col md={7} className="home-header">
-            <h1 style={{ paddingBottom: 15 }} className="heading">
-              Lets work together!
-            </h1>
+            <h2 style={{ paddingBottom: 50 }} className="heading">
+              Let's work together!
+            </h2>
 
-            <h3 className="heading">
-              I am a web developer with a background in Neuroscience and Coaching Psychology. I have a passion for innovation.
-            </h3>
+            <h5 className="heading">
+              Hi, I'm Beverley <span role="img" aria-label="wave">👋</span>
+            </h5>
 
-            <div style={{ padding: 50, textAlign: "center" }}>
-              <a href="#" className="home-icon">
-                <i className="fab fa-github-square"></i>
-              </a>
-            </div>
+            <h6>
+              I am a web developer with a background in Neuroscience <br></br>and Coaching Psychology <br></br> I have a passion for innovation and collaboration. <br></br>Got some questions? Contact me.
+            </h6>
           </Col>
-          <Col md={5} style={{ paddingBottom: 15 }}>
+
+          <Col md={5} style={{ paddingBottom: 30 }}>
             <img src={homeLogo} alt="home pic" className="img-fluid" />
           </Col>
         </Row>
@@ -33,5 +32,3 @@ function Home() {
 }
 
 export default Home;
-
-//assets and class names (home-section, home-content, home-header, heading, home-icon, etc.)

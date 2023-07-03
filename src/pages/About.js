@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import { github, resume } from "../assets/index";
-import Aboutcard from "../components/AboutCard";
-import img from "../assets/images/light.jpg";
+import AboutCard from "../Components/AboutCard";
+import img from "../assets/images/BW AVATAR.png";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -15,24 +14,30 @@ function About() {
               justifyContent: "center",
               paddingTop: "30px",
               paddingBottom: "50px",
+              textAlign: "left",  // Align text to the left
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               About Me
             </h1>
-            <Aboutcard
-              img={img}
-              alt="Beverley Tiare"
+            <AboutCard
+              imageUrl={img}
               className="profile-img"
               title="Beverley Tiare"
               text="I am a web developer with a background in Neuroscience and Coaching Psychology. I have a passion for innovation."
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h3 className="project-heading" style={{ textAlign: "left", paddingBottom: "20px" }}>
           Professional <strong className="indigo">Skillset </strong>
-        </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+         <ul>
+            <li>Neuroscience</li>
+            <li>Coaching Psychology</li>
+            <li>Performance Psychology</li>
+            <li>Innovative Web Solutions</li>
+          </ul>
+        </h3>
+        <Row style={{ justifyContent: "flex-start", paddingBottom: "50px" }}>
           <Col xs={4} md={2} className="tech-icons">
             <i className="fab fa-html5"></i>
           </Col>
@@ -49,7 +54,3 @@ function About() {
 }
 
 export default About;
-
-
-
-//TODO: class names (about-section, profile-img, project-heading, indigo, tech-icons, etc.),

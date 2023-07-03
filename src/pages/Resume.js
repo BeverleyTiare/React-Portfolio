@@ -1,34 +1,57 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-// import pdf from '../assets/Resume.pdf';
-// import {Document, Page} from 'react-pdf';
-// import { useState } from 'react';
-// import { useEffect } from 'react';
 
-function Resume() {
-    // const [numPages, setNumPages] = useState(null);
+const Resume = () => {
+  return (
+    <div>
+      <h1>Beveley Tiare</h1>
+      <h2>Web Developer</h2>
 
-    // useEffect(() => {
-        // setWidth(window.innerWidth);
-        // window.addEventListener('resize', handleResize);
-        // return () => window.removeEventListener('resize', handleResize);
-    // }, []);
+      <h3>Overview</h3>
+      <p>
+        TODO
+      </p>
+      <hr />
 
-    return (
-        <Container fluid>
-            <Container className="resume">
-                <h2>Resume</h2>
-                {/* <Button variant="primary" href={pdf} target="_blank">Download</Button> */}
-                {/* <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-                    <Page pageNumber={1} width={width} />
-                </Document> */}
-            </Container>
-        </Container>
-    );
-}
+      <a
+        className="button is-primary"
+        href={process.env.PUBLIC_URL + "/BT-resume.pdf"}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="icon">
+          <i className="fas fa-download"></i>
+        </span>
+        <span>Download My Resume</span>
+      </a>
+
+      <div className="column">
+        <p className="content is-medium">Skills</p>
+        <hr />
+
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>TODO</li>
+          <li>TODO</li>
+        </ul>
+      </div>
+
+      <h3>Experience</h3>
+      <h4>Web Developer | University of Sydney</h4>
+      <p>2023 - Present</p>
+      <ul>
+        <li>TODO</li>
+      </ul>
+
+      <h3>Education</h3>
+      <h4>Masters.Sc(Developmental Neuroscience) | XYZ University</h4>
+      <h4>MRes(Cognitive Neuroscience)</h4>
+      <h4>Master.Sc(Coaching Psychology)</h4>
+    </div>
+  );
+};
 
 export default Resume;
-
-//Link Resume.js to App.js:
-//Do Resume  
