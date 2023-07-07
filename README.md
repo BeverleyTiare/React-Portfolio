@@ -43,10 +43,6 @@ In this section, you can find some of my projects. Each project includes a title
 
 ## Resume
 
-You can download my resume by clicking the link below: TODO!!!
-
--   [Download Resume](https://.../path/to/resume.pdf)
-
 Here are some of my skills:
 
 -   HTML5
