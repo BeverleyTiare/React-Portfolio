@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Welcome to my single-page application to show my skills as a web developer. 
+You can find information about me, view my projects, get in touch and access my resume in the following sections.
 
-## Available Scripts
+## Deployment 
+The application is deployed on Vercel: https://react-portfolio-wheat-psi.vercel.app/about
 
-In the project directory, you can run:
+## About Me
+I am a web developer, neuroscientist and coaching psychologist and I am focused on exploring innovative collaborations using my diverse skills and expertise to contribute to web solutions for advancement of neuroscience research, health, and performance psychology with teams and individuals
+ 
 
-### `npm start`
+## Portfolio + links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this section, you can find some of my projects. Each project includes a title, a brief description, and links to corresponding GitHub repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.  Project 1: Code quiz
+    - Description: 'This Project focused on creating a timed quiz with multiple choice questions that also delineates information regarding high score outcomes. The quiz featured HTML and CSS powered by JS code.',  
+    -  GitHub Repository: [Link](https://github.com/BeverleyTiare/challenge-4-quiz)
+    
+2.  Project 2: Group project 1
+    -   Description: 'This project was aimed at providing scientific data on markers of climate change. The project featured HTML, CSS, JavaScript and APIs.',
+    -   GitHub Repository: [Link](https://github.com/HelmOar/project-1-group-1)
+     
+3.  Project 3: Portfolio
+    -   Description:'This project featured HTML and CSS, and was aimed at creating an initial portfolio of work.
+    -   GitHub Repository: [Link](https://github.com/BeverleyTiare/Challenge-2-Portfolio)
+    
+4.  Project 4:Work day scheduler
+    -   Description: This Project is a simplistic color-coded calendar app that uses JQuery and Day.js, and that incorporates local storage: so allowing user to save and track events of the day per hour.
+    -   GitHub Repository: [Link](https://github.com/BeverleyTiare/challenge-5-work-day-scheduler)
+    
+5.  Project 5: Employee tracker
+    -   Description: This command-line application manages employees by providing options to view, add, and update employee-related information, so to track departments, roles, and employees in your organization
+    -   GitHub Repository: [Link](https://github.com/BeverleyTiare/Challenge-Employee-Tracker)
+    
+6. Project 6;Weather Dashboard
+-   Description: This project featured developing a Weather Dashboard using HTML, CSS and JavaScript, that links to an external site to retrieve weather data for cities, across a 5-Day period. The application links to an API and uses local storage to store any persistent data, to thus allow the user to save and track weather data and events.
+-   GitHub Repository: [Link](https://github.com/BeverleyTiare/challenge-6-weather)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Resume
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can download my resume by clicking the link below: TODO!!!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   [Download Resume](https://.../path/to/resume.pdf)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here are some of my skills:
 
-### `npm run eject`
+-   HTML5
+-   CSS3
+-   JavaScript
+-   React
+-   Node.js
+-   Express.js
+-   MongoDB
+-   Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Footer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Connect with me on the following platforms:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-   [GitHub](https://github.com/BeverleyTiare)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
+Bootcamp TAs, tutors, opensource code sites, W3 schools, MDN, stackoverflow, medium, full stack blog.
 
-## Learn More
+## License
+MIT License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copyright © 2023 BeverleyTiare
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
