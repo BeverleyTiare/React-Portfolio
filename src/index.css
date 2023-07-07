@@ -2,16 +2,29 @@
   --bg-color: #0c0c0c;
   --primary-color: #0d0d0d;
   --secondary-color: #fff;
-  --text-color: grey;
+  --text-color: rgb(182, 177, 177);
   --text-color-2: darkgrey;
   --overlay-color: rgb(12 12 12 / 63%);
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(182, 182, 182) !important;
+}
+
+ul li {
+  list-style: none;
 }
 
 body {
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: visible;
+  /* overflow-x: hidden;
+  overflow-y: visible; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,7 +37,7 @@ body {
   background-size: 200% 200%;
   animation: background-animation 20s linear infinite;
 }
-/*not working??*/
+
 @keyframes background-animation {
   0% {
     background-position: 0 0;
@@ -56,15 +69,18 @@ main {
   background-color: var(--bg-color);
   color: var(--text-color);
   text-align: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 main img {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+}
+
+.portfolio__project-image {
+  max-height: 160px;
+  max-width: 100%;
 }
 
 footer {
@@ -79,7 +95,29 @@ footer {
 }
 
 footer img {
-  transform: scale(1.4);
+  /* transform: scale(1.4); */
+}
+
+.about-card__image {
+  max-width: 380px;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+}
+.navbar__links li {
+  margin-right: 10px
+}
+.navbar__links li:hover {
+  color: white
+}
+
+
+.home-header {
+  padding: 80px
 }
 
 @media (min-width: 1200px) {
@@ -101,3 +139,6 @@ footer img {
     text-align: center;
   }
 }
+
+
+

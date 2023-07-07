@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"; 
 import homeLogo from "../assets/images/BW AVATAR.png";
-
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,13 +12,13 @@ function Home() {
             <h2 style={{ paddingBottom: 50 }} className="heading">
               Let's work together!
             </h2>
-
+            <br/>
             <h5 className="heading">
-              Hi, I'm Beverley <span role="img" aria-label="wave">👋</span>
+              Hi, I'm Beverley <span class="hand-wave" role="img" aria-label="wave">👋</span>
             </h5>
-
+            <br/>
             <h6>
-              I am a web developer with a background in Neuroscience <br></br>and Coaching Psychology <br></br> I have a passion for innovation and collaboration. <br></br>Got some questions? Contact me.
+              I am a web developer with a background in Neuroscience <br/> and Coaching Psychology <br></br><br/> I have a passion for innovation and collaboration. <br></br><br/>Got some questions? <Link to="/contact"> Contact me.</Link>
             </h6>
           </Col>
 

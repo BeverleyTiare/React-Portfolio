@@ -1,12 +1,12 @@
 import React from "react";
-//import "./App.css";
+
 
 function Footer() {
   return (
     <div>
       <footer className="footer">
         <p>
-        {"hello@beverleytiare.com"} ©beverleytiare. All Rights Reserved.
+        {"hello@beverleytiare.com"} ©beverleytiare. All Rights Reserved. https://github.com/BeverleyTiare
         </p>
       </footer>
     </div>
