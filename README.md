@@ -5,7 +5,7 @@ Welcome to my single-page application to show my skills as a web developer.
 You can find information about me, view my projects, get in touch and access my resume in the following sections.
 
 ## Deployment 
-The application is deployed on Vercel: https://react-portfolio-wheat-psi.vercel.app/about
+The application is deployed on Vercel: https://react-portfolio-wheat-psi.vercel.app
 
 ## About Me
 I am a web developer, neuroscientist and coaching psychologist and I am focused on exploring innovative collaborations using my diverse skills and expertise to contribute to web solutions for advancement of neuroscience research, health, and performance psychology with teams and individuals
