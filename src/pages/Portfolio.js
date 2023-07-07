@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Project 1: Code Quiz',
-      link:  'https://beverleytiare.github.io/challenge-4-quiz/yTiare/challenge-4-quiz',
+      link:  'https://github.com/BeverleyTiare/challenge-4-quiz',
       deployedLink: 'https://beverleytiare.github.io/challenge-4-quiz/',
       description: 'This Project focused on creating a timed quiz with multiple choice questions that also delineates information regarding high score outcomes. The quiz featured HTML and CSS powered by JS code.',
       image: './images/Codequiz.png',
